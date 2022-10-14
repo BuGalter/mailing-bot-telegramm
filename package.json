@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "start:dev": "nodemon",
-    "build": "tsc && node ./build/main.js"
+    "build": "tsc && node ./build/bot.js"
   },
   "keywords": [
     "JavaScript",
@@ -23,6 +23,7 @@
     "eslint": "^8.21.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "nodemon": "^2.0.20",
